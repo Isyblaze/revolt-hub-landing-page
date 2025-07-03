@@ -43,24 +43,24 @@ const Index = () => {
           </p>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto" id="fintech">
-            <RevoltCard
-              title="Fintech Hub"
-              description="Wallets, payments, P2P trades, crypto and more."
-              href="https://wallet.revoltsrc.online"
-            />
-            
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto" id="social">
             <RevoltCard
               title="Social Media"
               description="Connect, share, message, and build your community."
               href="https://social.revoltsrc.online"
-              className="md:mt-4"
             />
             
             <RevoltCard
               title="Gaming Zone"
-              description="Play web games, track scores, and win rewards."
+              description="Play web games, track scores, and win rewards. Coming soon."
               href="https://play.revoltsrc.online"
+              className="md:mt-4"
+            />
+            
+            <RevoltCard
+              title="Fintech Hub"
+              description="Wallets, payments, P2P trades, crypto and more. Coming soon."
+              href="https://wallet.revoltsrc.online"
             />
           </div>
         </div>
