@@ -61,6 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				revolt: {
+					brand: 'hsl(var(--revolt-brand))',
+					'brand-hover': 'hsl(var(--revolt-brand-hover))',
+					surface: 'hsl(var(--revolt-surface))',
+					'surface-hover': 'hsl(var(--revolt-surface-hover))',
+					'text-muted': 'hsl(var(--revolt-text-muted))'
 				}
 			},
 			borderRadius: {
