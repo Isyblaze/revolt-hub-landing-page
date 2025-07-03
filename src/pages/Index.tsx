@@ -7,14 +7,7 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground font-sans">
       {/* Header */}
       <header className="flex items-center justify-between px-6 py-4 border-b border-border">
-        <div className="flex items-center space-x-3">
-          <img 
-            src="/lovable-uploads/29395206-f994-4813-9c93-37e943a93ba1.png" 
-            alt="Revolt Logo" 
-            className="h-8 w-8"
-          />
-          <h1 className="text-2xl font-bold text-revolt-brand">Revolt</h1>
-        </div>
+        <h1 className="text-2xl font-bold text-revolt-brand">Revolt</h1>
         <nav className="flex items-center space-x-4">
           <a href="#fintech" className="hover:text-revolt-brand transition-colors">
             Fintech
