@@ -47,9 +47,12 @@ All colors MUST be HSL.
     
     /* Gradients */
     --gradient-revolt: linear-gradient(135deg, hsl(var(--revolt-brand)), hsl(var(--accent)));
+    --gradient-futuristic: linear-gradient(45deg, hsl(var(--revolt-brand) / 0.1), hsl(var(--accent) / 0.1), hsl(var(--revolt-brand) / 0.1));
+    --gradient-animated: linear-gradient(-45deg, hsl(var(--revolt-brand) / 0.1), hsl(var(--accent) / 0.15), hsl(var(--revolt-brand) / 0.08), hsl(var(--accent) / 0.12));
     
     /* Shadows */
     --shadow-revolt: 0 10px 30px -10px hsl(var(--revolt-brand) / 0.3);
+    --shadow-glow: 0 0 60px hsl(var(--revolt-brand) / 0.2);
     
     /* Animations */
     --transition-revolt: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
